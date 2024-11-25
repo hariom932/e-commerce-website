@@ -1,0 +1,74 @@
+.box
+{
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  margin-top: 10px;
+}
+.imgBox
+{
+    width: 400px;
+    height: 450px;
+    background-color: aqua;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+.detailBox
+{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 500px;
+  top: -450px;
+}
+.btn
+{
+  position: relative;
+  top: 50px;
+  left: 40px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn button
+{
+  width: 200px;
+  font-size: 24px;
+  padding: 15px 10px;
+  border-radius: 5px;
+  word-spacing: 5px;
+}
+.cart
+{
+    background-color: orange;
+}
+.buy
+{
+  background-color: rgb(249, 88, 30);
+}
+.title
+{
+  font-size: 20px;
+}
+.price
+{
+  font-size:34px;
+  margin : 10px 0px;
+  color: red;
+  font-weight: 700;
+}
+.rating button
+{
+    padding: 4px 10px;
+    cursor: pointer;
+    margin: 10px 0px;
+  }
+  .desc
+  {
+  margin: 10px 0px;
+
+}

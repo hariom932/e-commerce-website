@@ -1,0 +1,58 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* margin-left: 100px; */
+}
+.box
+{
+    width: 240px;
+    height: 360px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+.imgBox
+{
+    flex:5;
+    background-color: red;
+    border-radius: 0px 0px 20px 20px;
+    background-size: 100% 100%;
+}
+.detailBox 
+{
+    flex:2;
+}
+.title
+{
+    border:2px solid white;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row
+{
+    margin-top: 20px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.row .btn{
+    background-color: purple;
+    color:white;
+    width:100px;
+    height:30px;
+    border-radius: 10px;
+    border:none;
+    font-weight: bold;
+}
+ion-icon
+{
+    font-size: 24px;
+}

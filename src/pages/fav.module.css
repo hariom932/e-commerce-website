@@ -1,0 +1,62 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box
+{
+    width: 55vw;
+    height: 200px;
+    margin-left: 100px;
+    background-color: white;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+}
+.imgBox
+{
+    margin: 40px 50px;
+}
+.qty
+{
+     margin-left: 30px;
+     margin-top: 10px;
+}
+.detailBox
+{
+    margin-top: 20px;
+}
+.title
+{
+    width: 400px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.price
+{
+    font-weight: 700;
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.tag
+{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.tag:hover
+{
+    color: blue;
+}
+.remove
+{
+    margin-left: 40px;
+}
+.dlry
+{
+    margin-right: 10px;
+    margin-top: 20px;
+}
